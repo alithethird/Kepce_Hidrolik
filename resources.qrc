@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>png/boom_serbest_diagram.png</file>
+        <file>png/boom_serbest_diagram_eq.png</file>
+        <file>png/kepce_serbest_diagram.png</file>
+        <file>png/kol_serbest_diagram.png</file>
+    </qresource>
+</RCC>
