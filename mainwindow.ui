@@ -18,97 +18,175 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
-      <widget class="QWidget" name="tab_kuvvet">
+      <widget class="QWidget" name="tab_girdiler">
        <attribute name="title">
-        <string>Kuvvet</string>
+        <string>Girdiler</string>
        </attribute>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="label_12">
         <property name="geometry">
          <rect>
-          <x>60</x>
-          <y>90</y>
-          <width>141</width>
-          <height>16</height>
+          <x>50</x>
+          <y>200</y>
+          <width>134</width>
+          <height>61</height>
          </rect>
         </property>
         <property name="text">
-         <string>Kepçe Kazma Kuvveti:</string>
+         <string>R1FC Uzunluğu (mm) :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>131</y>
+          <width>134</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kepçe Piston Çapı (mm) :</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_2">
         <property name="geometry">
          <rect>
-          <x>60</x>
-          <y>136</y>
-          <width>131</width>
+          <x>50</x>
+          <y>64</y>
+          <width>134</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Piston Çalışma Basıncı (bar):</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>330</y>
+          <width>134</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kol Kütlesi (kg) :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>260</y>
+          <width>134</width>
+          <height>62</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kepçe Kütlesi (kg) :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>400</y>
+          <width>134</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Boom Kütlesi (kg) :</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="girdi_Dc">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>150</y>
+          <width>408</width>
           <height>20</height>
          </rect>
         </property>
-        <property name="text">
-         <string>Kol Kazma Kuvveti:</string>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit">
+       <widget class="QLineEdit" name="girdi_Pc">
         <property name="geometry">
          <rect>
           <x>190</x>
-          <y>90</y>
-          <width>113</width>
-          <height>22</height>
+          <y>85</y>
+          <width>408</width>
+          <height>20</height>
          </rect>
         </property>
         <property name="inputMethodHints">
          <set>Qt::ImhPreferNumbers</set>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_2">
+       <widget class="QLineEdit" name="girdi_W_kepce">
         <property name="geometry">
          <rect>
           <x>190</x>
-          <y>140</y>
-          <width>113</width>
-          <height>22</height>
+          <y>280</y>
+          <width>408</width>
+          <height>20</height>
          </rect>
         </property>
         <property name="inputMethodHints">
          <set>Qt::ImhPreferNumbers</set>
         </property>
        </widget>
-       <widget class="QLabel" name="label_3">
+       <widget class="QLineEdit" name="girdi_R1FC">
         <property name="geometry">
          <rect>
-          <x>310</x>
-          <y>90</y>
-          <width>55</width>
-          <height>16</height>
+          <x>190</x>
+          <y>220</y>
+          <width>408</width>
+          <height>20</height>
          </rect>
         </property>
-        <property name="text">
-         <string>KN</string>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
         </property>
        </widget>
-       <widget class="QLabel" name="label_4">
+       <widget class="QLineEdit" name="girdi_W_kol">
         <property name="geometry">
          <rect>
-          <x>310</x>
-          <y>140</y>
-          <width>55</width>
-          <height>16</height>
+          <x>190</x>
+          <y>350</y>
+          <width>408</width>
+          <height>20</height>
          </rect>
         </property>
-        <property name="text">
-         <string>KN</string>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="girdi_W_boom">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>420</y>
+          <width>408</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
         </property>
        </widget>
        <widget class="QPushButton" name="pushButtonHesapla">
         <property name="geometry">
          <rect>
-          <x>490</x>
-          <y>120</y>
-          <width>93</width>
-          <height>28</height>
+          <x>610</x>
+          <y>220</y>
+          <width>162</width>
+          <height>23</height>
          </rect>
         </property>
         <property name="text">
@@ -116,9 +194,9 @@
         </property>
        </widget>
       </widget>
-      <widget class="QWidget" name="tab_kepce_kazma_kuvvetine_gore">
+      <widget class="QWidget" name="tab_sonuc">
        <attribute name="title">
-        <string>Kepçe Kazma Kuvvetine Göre </string>
+        <string>Hesap Sonuçları</string>
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
@@ -156,20 +234,58 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_4">
               <item>
-               <widget class="QCustomPlot" name="plot_kepce_kepce_1" native="true">
-                <property name="minimumSize">
-                 <size>
-                  <width>500</width>
-                  <height>0</height>
-                 </size>
-                </property>
-               </widget>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="QLabel" name="label_16">
+                  <property name="text">
+                   <string>Maksimum kazma kuvveti (N) :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_maxFc">
+                  <property name="text">
+                   <string>0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
               </item>
               <item>
-               <widget class="QCustomPlot" name="plot_kepce_kepce_2" native="true"/>
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
+                <item>
+                 <widget class="QLabel" name="label_18">
+                  <property name="text">
+                   <string>Fperno1 x kuvveti (N) :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_F_P1x">
+                  <property name="text">
+                   <string>0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
               </item>
               <item>
-               <widget class="QCustomPlot" name="plot_kepce_kepce_3" native="true"/>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <item>
+                 <widget class="QLabel" name="label_17">
+                  <property name="text">
+                   <string>Fperno1 y kuvveti (N) :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_F_P1y">
+                  <property name="text">
+                   <string>0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
               </item>
              </layout>
             </item>
@@ -202,10 +318,76 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout">
               <item>
-               <widget class="QCustomPlot" name="plot_kepce_kol_1" native="true"/>
+               <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <item>
+                 <widget class="QLabel" name="label_15">
+                  <property name="text">
+                   <string>Kol Piston Kuvveti (Fb) (N) :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_Fb">
+                  <property name="text">
+                   <string>0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
               </item>
               <item>
-               <widget class="QCustomPlot" name="plot_kepce_kol_2" native="true"/>
+               <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <item>
+                 <widget class="QLabel" name="label_20">
+                  <property name="text">
+                   <string>Fperno 7 x (N) :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_F_P7x">
+                  <property name="text">
+                   <string>0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_11">
+                <item>
+                 <widget class="QLabel" name="label_22">
+                  <property name="text">
+                   <string>Fperno 7 y(N) :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_F_P7y">
+                  <property name="text">
+                   <string>0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <item>
+                 <widget class="QLabel" name="label_19">
+                  <property name="text">
+                   <string>Piston Çapı (mm) :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_Db">
+                  <property name="text">
+                   <string>0</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
               </item>
              </layout>
             </item>
@@ -238,169 +420,49 @@
                </widget>
               </item>
               <item>
-               <widget class="QCustomPlot" name="plot_kepce_boom_1" native="true"/>
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_14">
+                  <item>
+                   <widget class="QLabel" name="label_24">
+                    <property name="text">
+                     <string>Boom Piston Kuvveti (Fa) (N) :</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_Fa">
+                    <property name="text">
+                     <string>0</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_13">
+                  <item>
+                   <widget class="QLabel" name="label_21">
+                    <property name="text">
+                     <string>Piston Çapı (mm) :</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_Da">
+                    <property name="text">
+                     <string>0</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
               </item>
              </layout>
             </item>
             <item>
              <widget class="QLabel" name="label_kepce_boom_serbest_eq">
-              <property name="maximumSize">
-               <size>
-                <width>16777215</width>
-                <height>190</height>
-               </size>
-              </property>
-              <property name="sizeIncrement">
-               <size>
-                <width>0</width>
-                <height>10</height>
-               </size>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="pixmap">
-               <pixmap resource="resources.qrc">:/new/prefix1/png/boom_serbest_diagram_eq.png</pixmap>
-              </property>
-              <property name="scaledContents">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_kol_kazma_kuvvetine_gore">
-       <attribute name="title">
-        <string>Kol Kazma Kuvvetine Göre</string>
-       </attribute>
-       <layout class="QVBoxLayout" name="verticalLayout_3">
-        <item>
-         <widget class="QTabWidget" name="tabWidget_3">
-          <property name="currentIndex">
-           <number>2</number>
-          </property>
-          <widget class="QWidget" name="tab_kol_kepce">
-           <attribute name="title">
-            <string>Kepçe</string>
-           </attribute>
-           <layout class="QHBoxLayout" name="horizontalLayout_5">
-            <item>
-             <widget class="QLabel" name="label_7">
-              <property name="maximumSize">
-               <size>
-                <width>511</width>
-                <height>750</height>
-               </size>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="pixmap">
-               <pixmap resource="resources.qrc">:/new/prefix1/png/kepce_serbest_diagram.png</pixmap>
-              </property>
-              <property name="scaledContents">
-               <bool>true</bool>
-              </property>
-              <property name="openExternalLinks">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <layout class="QVBoxLayout" name="verticalLayout_6">
-              <item>
-               <widget class="QCustomPlot" name="plot_kepce_kepce_4" native="true">
-                <property name="minimumSize">
-                 <size>
-                  <width>500</width>
-                  <height>0</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QCustomPlot" name="plot_kepce_kepce_5" native="true"/>
-              </item>
-              <item>
-               <widget class="QCustomPlot" name="plot_kepce_kepce_6" native="true"/>
-              </item>
-             </layout>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_kol_kol">
-           <attribute name="title">
-            <string>Kol</string>
-           </attribute>
-           <layout class="QHBoxLayout" name="horizontalLayout_6">
-            <item>
-             <widget class="QLabel" name="label_8">
-              <property name="maximumSize">
-               <size>
-                <width>500</width>
-                <height>16777215</height>
-               </size>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="pixmap">
-               <pixmap resource="resources.qrc">:/new/prefix1/png/kol_serbest_diagram.png</pixmap>
-              </property>
-              <property name="scaledContents">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <layout class="QVBoxLayout" name="verticalLayout_7">
-              <item>
-               <widget class="QCustomPlot" name="plot_kepce_kol_3" native="true"/>
-              </item>
-              <item>
-               <widget class="QCustomPlot" name="plot_kepce_kol_4" native="true"/>
-              </item>
-             </layout>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_kol_boom">
-           <attribute name="title">
-            <string>Boom</string>
-           </attribute>
-           <layout class="QVBoxLayout" name="verticalLayout_8">
-            <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_7">
-              <item>
-               <widget class="QLabel" name="label_kepce_boom_serbest_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>400</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="pixmap">
-                 <pixmap resource="resources.qrc">:/new/prefix1/png/boom_serbest_diagram.png</pixmap>
-                </property>
-                <property name="scaledContents">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QCustomPlot" name="plot_kepce_boom_2" native="true"/>
-              </item>
-             </layout>
-            </item>
-            <item>
-             <widget class="QLabel" name="label_kepce_boom_serbest_eq_2">
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
@@ -440,20 +502,12 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>QCustomPlot</class>
-   <extends>QWidget</extends>
-   <header>qcustomplot.h</header>
-   <container>1</container>
-  </customwidget>
- </customwidgets>
  <resources>
   <include location="resources.qrc"/>
  </resources>

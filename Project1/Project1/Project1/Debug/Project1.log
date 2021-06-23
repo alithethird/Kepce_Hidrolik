@@ -1,0 +1,40 @@
+﻿  Kaynak.cpp
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(14,14): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(116,26): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(121,17): warning C4244: '=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(122,24): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(123,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(126,18): warning C4244: '*=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(128,21): warning C4244: '=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(131,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(131,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(131,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(133,41): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(133,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(133,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(134,29): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(135,29): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(136,32): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(151,17): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(156,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(161,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(166,14): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(171,14): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(176,24): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(181,15): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(186,15): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(197,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(199,15): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(205,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(207,48): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(212,18): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(213,18): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(214,19): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(215,21): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(218,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(221,28): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(228,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(229,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(235,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MONSTER\source\repos\Project1\Project1\Kaynak.cpp(236,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  Project1.vcxproj -> C:\Users\MONSTER\source\repos\Project1\Debug\Project1.exe
